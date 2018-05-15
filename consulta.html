@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Caza cupos</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link type="image/x-icon" href="icono.png" rel="icon" />
+</head>
+<style>
+	body{
+	margin:5px;
+	font-family: arial;
+	background-image: url("background.png");
+}
+
+fieldset{
+	width: 280px;
+	margin: 0 auto;
+	border: none;
+	padding: 0 0 10px 0;
+	background-color: white;
+}
+
+form{
+	background-color: white;
+	/*width: 280px;*/
+	width: 450px;
+	padding: 5px 10px 0 10px;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+
+input{
+	display: block;
+	border: none;
+	margin: 20px auto;
+	width: 280px;
+	background-color: #eaeaea;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+legend{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #777;
+}
+
+input[type="submit"]{
+	background-color: mediumseagreen;
+	color: white;
+	cursor: pointer;
+}
+
+.contenido{
+	width: 280px;
+	height: 150px;
+}
+
+footer{
+	color: blue;
+	font-size: 3mm;
+	font-family: "lucida calligraphy";
+}
+</style>
+
+<body>
+
+
+<form method="get" action="prototipo2.php">
+	<fieldset>
+		<legend>Consulta de materias</legend>
+				<input type="text" name="materia" id="materia" placeholder="Clave de materia" autofocus required>
+				<input type="text" name="nrc" id="nrc" placeholder="NRC" autofocus required>
+				<input type="submit" value="Consultar">
+	</fieldset>
+</form>
+
+<footer>
+	<h4>Obvi que todo creado por el papu de papus ;)</h4>
+</footer>
+</body>
+</html>
+
